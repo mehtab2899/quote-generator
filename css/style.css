@@ -1,0 +1,53 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	/* font-size: 16px; */
+	font-family: sans-serif;
+}
+
+.container {
+	height: 100vh;
+	width: 100vw;
+	background-image: url("/images/pexels-simon-matzinger-1323550.jpg");
+	background-size: cover;
+}
+
+p {
+	font-size: 2rem;
+	padding: 2rem 0 0 3rem;
+	width: 40rem;
+}
+
+.reload-icon {
+	color: black;
+	font-size: 1.5rem;
+	cursor: pointer;
+	background-image: linear-gradient(to right, #134232, #fae2e2);
+	padding: 0.5rem;
+	border: none;
+	text-transform: capitalize;
+	border-radius: 0.3rem;
+	margin: 2rem 0 0 6rem;
+	outline: none;
+}
+
+.clock {
+	padding: 3rem 0 0 6rem;
+	color: white;
+}
+
+.para2 {
+	text-transform: uppercase;
+}
+
+#time {
+	font-size: 5rem;
+}
+
+h2 {
+	text-transform: uppercase;
+}
