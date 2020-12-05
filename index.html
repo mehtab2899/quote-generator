@@ -4,19 +4,28 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css"
+		/>
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body onload="Clock()">
-		<div class="container">
-			<!-- quote generator -->
-			<p class="para1" id="randomQuote"></p>
-			<button id="click" class="reload-icon">new quote</button>
-
-			<!-- clock -->
-			<div class="clock">
-				<h3 class="para2"><span id="greet"></span>, it's currently</h3>
-				<span id="time"></span>
-				<h2>in bangalore, india</h2>
+		<div class="container-fluid">
+			<div class="row p-5">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+					<!-- quote generator -->
+					<h1 class="para1" id="randomQuote"></h1>
+				</div>
+				<!-- clock -->
+				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+					<div class="clock">
+						<h2 class="para2"><span id="greet"></span>, it's currently</h2>
+						<h1 id="time"></h1>
+						<h3>in bangalore, india</h3>
+						<button class="mt-5 btn btn-warning" id="click">new quote</button>
+					</div>
+				</div>
 			</div>
 		</div>
 

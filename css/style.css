@@ -5,49 +5,17 @@
 }
 
 body {
-	/* font-size: 16px; */
-	font-family: sans-serif;
-}
-
-.container {
-	height: 100vh;
-	width: 100vw;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 	background-image: url("../images/img.jpg");
 	background-size: cover;
 }
 
-p {
-	font-size: 2rem;
-	padding: 2rem 0 0 3rem;
-	width: 40rem;
-}
-
-.reload-icon {
-	color: black;
-	font-size: 1.5rem;
-	cursor: pointer;
-	background-image: linear-gradient(to right, #134232, #fae2e2);
-	padding: 0.5rem;
-	border: none;
+h3,
+button {
 	text-transform: capitalize;
-	border-radius: 0.3rem;
-	margin: 2rem 0 0 6rem;
-	outline: none;
 }
 
-.clock {
-	padding: 3rem 0 0 6rem;
-	color: white;
-}
-
-.para2 {
-	text-transform: uppercase;
-}
-
-#time {
-	font-size: 5rem;
-}
-
-h2 {
-	text-transform: uppercase;
+h1 {
+	font-weight: bold;
 }

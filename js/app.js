@@ -52,7 +52,7 @@ $(() => {
 });
 
 $("#click").click(() => {
-	$("p").css({
+	$("h1").css({
 		color: randomColor(),
 		transition: "all linear .2s",
 	});
@@ -87,11 +87,11 @@ const Greet = () => {
 		hour = today.getHours();
 
 	if (hour < 12) {
-		document.getElementById("greet").innerHTML = "Good Morning!";
+		document.getElementById("greet").innerHTML = "Good Morning 🌞";
 	} else if (hour < 18) {
-		document.getElementById("greet").innerHTML = "Good Afternoon";
+		document.getElementById("greet").innerHTML = "Good Afternoon ☀️";
 	} else {
-		document.getElementById("greet").innerHTML = "Good Evening";
+		document.getElementById("greet").innerHTML = "Good Evening 🌃";
 	}
 };
 
